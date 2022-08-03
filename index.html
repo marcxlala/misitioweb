@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/faviconotraopcion.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>moriturio</title>
+</head>
+
+<!--nav-->
+    <nav class="navegador">
+        <ul class="listaDesordenada">
+            <li class="lista__elemento"><a class="link__direccion" href="index.html">INICIO</a></li>
+            <li class="lista__elemento"><a class="link__direccion" href="./pages/collages.html">COLLAGES</a></li>
+            <li class="lista__elemento"><a class="link__direccion" href="./pages/otrasobras.html">OTRAS OBRAS</a></li>
+            <li class="lista__elemento"><a class="link__direccion" href="./pages/bookclub.html">BOOK CLUB</a></li>
+            <li class="lista__elemento"><a class="link__direccion" href="./pages/contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+<body>
+
+    <!--Banner-->
+    <header class="banner">
+        <!--logo posicionado-->
+        <img id="logoHeader" class="animate__bounceIn" src="assets/images/logo-header.png" alt="">
+    </header>
+
+<!--Destacados-->
+<main>
+        <section class= "seccion">
+            <article class="articulo" class="gidContainer" id="destacadosHeadline">
+                <h1 class="articulo__titulo">Destacados este mes</h1>
+            </article>
+
+                <article class="articulo" class="gidContainer" id="elegidosMes">
+                    <h1 class="articulo__titulo">Elegidos por mis amigos</h1>
+                    <img id="obraElegidaJulio" src="./assets/images/obra-elegida-julio.jpg" alt="">
+                    <p class="articulo__texto" id="textElegida">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio alias eum temporibus, nulla quos explicabo quibusdam. Impedit, ipsam. Molestiae, harum! Fuga magnam placeat sapiente dolore nostrum, vel cumque commodi tempore!</p>
+                </article>
+
+            <div id="gridMainIndex">
+                <article class="articulo" class="gidContainer">
+                    <h1 class="articulo__titulo">Lectura de este mes</h1>
+                    <img  id="lecturaJulio" src="./assets/images/lectura-julio-club.jpg" alt="">
+                    <p class="articulo__texto">Título, Autor</p>
+                    <p id="reseñaLecturaClub" class="articulo__texto">"Cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita cita" -Revista famosa</p>
+                    <button class="boton"><a class="link__direccion" href="./pages/bookclub.html"></a> Únete al club</button>
+                </article>
+
+                <article class="articulo" class="gidContainer">
+                    <h3 class="articulo__titulo">Te recomiendo</h3>
+                    <!--arreglar reproductor de video-->
+                    <iframe id="videoRecomendado" width="560" height="315" src="https://www.youtube.com/watch?v=6KOtd7nAO20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="articulo__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis rerum illum quo neque porro tempore? Quis obcaecati itaque minus animi soluta odio ea blanditiis deleniti iure, cumque ducimus necessitatibus mollitia?</p>
+                </article>
+            </div>
+        </section>
+</main>
+
+<footer class="pieDePagina">
+    <img id="logoFooter" src="./assets/icons/logo-blanco.png" alt="">
+
+    <nav class="navegador">
+        <ul class="listaDesordenada--footer">
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.youtube.com/channel/UCzjGHQzrZsSvXlcmpgrlaQQ"></a>YouTube</li>
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.instagram.com/moriturio/"></a>instagram</li>
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.twitch.tv/marcxlala"></a>Twitch</li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>

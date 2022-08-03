@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html  id="contacto" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icons/faviconotraopcion.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+
+<!--nav-->
+<nav class="navegador">
+    <ul class="listaDesordenada">
+        <li class="lista__elemento"><a class="link__direccion" href="../index.html">INICIO</a></li>
+        <li class="lista__elemento"><a class="link__direccion" href="./collages.html">COLLAGES</a></li>
+        <li class="lista__elemento"><a class="link__direccion" href="./otrasobras.html">OTRAS OBRAS</a></li>
+        <li class="lista__elemento"><a class="link__direccion" href="./bookclub.html">BOOK CLUB</a></li>
+        <li class="lista__elemento"><a class="link__direccion" href="./contacto.html">CONTACTO</a></li>
+    </ul>
+</nav>
+
+<!--body-->
+<body class="bg">
+
+
+<main>
+    <section class="seccion">
+
+        <h2 class="articulo__titulo--formulario">Utiliza este formulario para contactarme sobre etc...</h2>
+
+        <article class="articulo">
+            <form class="formulario" action="procesar.php" method="post" name="contacto" >
+                <fieldset>
+                    <legend class="leyenda">¡Deja tus datos aquí!</legend></form>
+                    <!--Los campossin placeholder porque no me gusta-->
+                    <p class="articulo__texto">
+                    <label for="Nombre">Nombre y Apellido</label>
+                        <input class="input" type="text" name="" id="" required>
+                    </p>
+                    
+                    <p class="articulo__texto">
+                    <label for="Mail">E-mail</label>
+                        <input class="input" type="email" name="" id="" required>
+                    </p>
+
+                    <p class="articulo__texto">
+                    <label for="Mensaje">Tu consulta o comentario</label>
+                        <input class="input" type="text" name="" id="">
+                    </p>
+                    
+                    <!--Botones-->
+                    <p>
+                        <button class="boton" type="submit">Enviar</button>
+                    </p>
+
+                    <p>
+                        <button class="boton" type="Reset">Borrar todo</button>
+                    </p>
+                </fieldset>
+        </article>    
+    </section>
+</main>
+
+<footer class="pieDePagina">
+    <img id="logoFooter" src="../assets/icons/logo-blanco.png" alt="">
+
+    <nav class="navegador">
+        <ul class="listaDesordenada--footer">
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.youtube.com/channel/UCzjGHQzrZsSvXlcmpgrlaQQ"></a>YouTube</li>
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.instagram.com/moriturio/"></a>instagram</li>
+            <li class="lista__elemento--footer"><a class="link__direccion" href="https://www.twitch.tv/marcxlala"></a>Twitch</li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
