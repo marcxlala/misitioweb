@@ -11,9 +11,9 @@
 }
 
 .text-bg-primary {
-  color: #fff !important;
-  background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
-}
+  color: black !important;
+  background-color: rgb (176, 224, 230) !important;}
+
 
 .text-bg-secondary {
   color: #fff !important;

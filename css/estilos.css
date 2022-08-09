@@ -23,7 +23,7 @@ html{
 /*nav*/
 
 .navegador{
-    background: linear-gradient(to right, #0C5B89,  powderblue);
+    background: linear-gradient(to right, #0C5B89,  powderblue); 
 }
 
 .listaDesordenada{
