@@ -1,23 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
-body {
-  background-color: #b0e0e6;
-}
-body section {
-  background-color: #b0e0e6;
-}
-body main {
-  background-color: #b0e0e6;
-}
-
-article {
-  background-color: #b0e0e6;
-}
-
-p {
-  color: black;
-}
-
 /*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
 @font-face {
   font-family: "Gideon Roman";
   src: url(../assets/fuentes/GideonRoman-Regular.ttf);
