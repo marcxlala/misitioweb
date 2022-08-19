@@ -17,6 +17,19 @@ p {
   color: black;
 }
 
+#obraElegidaJulio {
+  height: 780px;
+}
+
+#lecturaJulio {
+  height: 420px;
+}
+
+.images {
+  width: 600px;
+  width: 310px;
+}
+
 /*fonts*/
 @font-face {
   font-family: "Gideon Roman";
@@ -228,14 +241,10 @@ footer {
 
 #obraElegidaJulio {
   grid-column-start: 1;
-  width: 75%;
-  height: 780px;
   margin: 10px;
 }
 
 #lecturaJulio {
-  width: 25%;
-  height: 420px;
   margin: 10px;
 }
 
