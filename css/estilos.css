@@ -17,6 +17,11 @@ p {
   color: black;
 }
 
+footer{
+  display: grid;
+  grid-template-columns: repeat(7, 14.3%);
+}
+
 #obraElegidaJulio {
   height: 780px;
 }
@@ -178,7 +183,7 @@ footer {
   position: fixed;
 }
 
-.bg {
+.backgroundContacto{
   height: 100%;
   width: 100%;
   background-image: url(../assets/images/anotherheader.jpg);
@@ -190,6 +195,10 @@ footer {
 /*modificador*/
 .listaDesordenada--footer {
   text-align: right;
+}
+
+.navegador--footer{
+  grid-column: 7;
 }
 
 .lista__elemento--footer {
@@ -296,6 +305,10 @@ footer {
 
 #instagramClub {
   grid-column-start: 3;
+}
+
+#logoFooter{
+  grid-column: 1;
 }
 
 /*animaciones*/
